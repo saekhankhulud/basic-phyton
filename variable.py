@@ -1,5 +1,4 @@
-x = 5
-y = "Hello, Khulud!"
-
-print(x)
-print(y)
+angka = 5000
+tulisan = "Hello, Khulud"
+print(angka)
+print(tulisan)
