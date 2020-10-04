@@ -13,3 +13,5 @@ mylist2.append("y")
 print(mylist2)
 print(mylist2[0])
 
+for x in mylist:
+    print("Value:" + str(x))
