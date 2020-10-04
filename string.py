@@ -12,5 +12,5 @@ print(a[-6:])
 print(len(a))
 
 halo = "halo"
-b = a + "" + halo
+b = a + " " + halo
 print(b)
