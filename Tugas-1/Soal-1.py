@@ -1,9 +1,7 @@
-Nama = input("Masukkan nama anda: ")
+Nama = str(input("Masukkan nama anda: "))
+Umur = int(input("Masukkan umur anda: "))
+Tinggi = float(input("Masukkan tinggi anda: "))
 
-Umur = input("Masukkan umur anda: ")
-
-Tinggi = input("Masukkan tinggi anda: ")
-
-text = "Nama saya {}, umur saya {} tahun dan tinggi saya {} cm.".format (str(Nama), int(Umur), float(Tinggi))
+text = "Nama saya {}, umur saya {} tahun dan tinggi saya {} cm.".format (Nama, Umur, Tinggi)
 
 print(text)
