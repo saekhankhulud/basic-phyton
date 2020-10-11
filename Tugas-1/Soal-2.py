@@ -1,7 +1,10 @@
-Pi = 22 / 7
 r = float(input("Masukkan jari-jari lingkaran (cm): "))
-Luas = float(Pi * r ** 2)
+Pi = 22 / 7
 
-text = "Luas lingkaran dengan jari-jari {} cm adalah {:.2f} cm\u00b2".format (r, Luas)
+def hitung_luas_lingkaran(r):
+    luas = Pi * r ** 2
+    return luas
 
-print(text)
+luas = hitung_luas_lingkaran(r)
+
+print("Luas lingkaran dengan jari-jari {} cm adalah {:.2f} cm\u00b2".format (r, luas))
