@@ -2,7 +2,6 @@
 kontak = {}
 
 daftar_kontak = []
-daftar_kontak.append(kontak)
 
 # show kontak
 def lihat_kontak():
@@ -11,16 +10,19 @@ def lihat_kontak():
         print("Daftar Kontak:")
         print()
     else:
-        print("Daftar Kontak:")
         for kontak in daftar_kontak:
+            print("Daftar Kontak:")
             print("Nama: {}".format (kontak["nama"]))
             print("No Telepon: {}".format (kontak["no telepon"]))
-
+            
 # input kontak
 def isi_kontak():
-    kontak["nama"] = input("Nama: ")
-    kontak["no telepon"] = input("No Telepon: ")
-    print("Kontak berhasil ditambahkan")
+    i = int(input("Masukkan jumlah kontak yang ingin dimasukkan: "))
+    for i in range(i):
+        kontak["nama"] = input("Nama: ")
+        kontak["no telepon"] = input("No Telepon: ")
+        print("Kontak berhasil ditambahkan")
+        daftar_kontak.append(kontak)
     
 # menu
 print("Selamat datang!")
