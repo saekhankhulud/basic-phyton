@@ -1,3 +1,3 @@
-import mymodule
+import mymodule, function
 
 mymodule.greeting("Khulud")

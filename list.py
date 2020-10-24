@@ -7,7 +7,7 @@ print(mylist)
 print(mylist[2])
 
 mylist2 = []
-mylist2.append("x")
+mylist2.append
 mylist2.append("y")
 
 print(mylist2)

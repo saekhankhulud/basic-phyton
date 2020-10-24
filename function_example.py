@@ -6,14 +6,14 @@ def tambah_nama_hewan(nama):
         print(hewan)
     print("-------")
 
-tambah_nama_hewan("jerapah")
-tambah_nama_hewan("singa")
-tambah_nama_hewan("kudanil")
-tambah_nama_hewan("berang-berang")
+#tambah_nama_hewan("jerapah")
+#tambah_nama_hewan("singa")
+#tambah_nama_hewan("kudanil")
+#tambah_nama_hewan("berang-berang")
 
-#def total(x, y):
-#    total = x / y
-#    return(total)
+def total(x, y):
+    total = x / y
+    return(total)
 
-#jumlah = total(10, 5)
-#print(jumlah)
+jumlah = total(10, 5)
+print(jumlah)
